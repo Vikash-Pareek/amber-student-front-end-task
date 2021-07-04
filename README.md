@@ -9,4 +9,4 @@ To run the project:
 
 
 Deployed Live Project Demo:
-### `https://frontend-task-vikash.netlify.app/`
+### https://frontend-task-vikash.netlify.app/
