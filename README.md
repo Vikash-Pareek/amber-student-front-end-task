@@ -2,6 +2,7 @@
 
 
 -> Run following commands in the terminal to run the project locally :
+<br />
 To download project dependencies:
 ### `>> npm install`
 To run the project:
