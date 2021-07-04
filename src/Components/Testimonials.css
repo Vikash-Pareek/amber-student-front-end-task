@@ -1,0 +1,497 @@
+
+.testimonials-container {
+    background-color: #fff;
+    padding: 2rem 0 2rem 10rem;
+    margin: 2rem 0 0 10rem;
+    border-radius: 200px 0 0 200px;
+}
+
+.testimonial-card {
+    padding-right: 3.5rem;
+    width: 100%;
+}
+
+.testimonial-text {
+    font-family: 'Poppins-600';
+    text-transform: uppercase;
+}
+
+.testimonial-section {
+    display: flex;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.testimonial-heading, .testimonial-loading {
+    font-family: 'Poppins-600';
+    font-size: 2rem;
+    margin: 0;
+}
+
+.testimonial-message {
+    font-family: 'Poppins-400';
+    font-size: 1.3rem;
+}
+
+.testimonial-name, .testimonial-designation {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.testimonial-name {
+    font-family: 'Poppins-600';
+}
+
+.testimonial-designation {
+    font-family: 'Poppins-400';
+}
+
+.testimonials-avatar-section, .testimonial-name-designation-read-more-section {
+    display: flex;
+}
+
+.testimonial-name-designation-read-more-section {
+    align-items: center;
+}
+
+.testimonial-name-designation-section, .testimonial-avatars-map-section {
+    display: flex;
+    flex-grow: 1;
+}
+
+.testimonial-avatar-inactive {
+    border-radius: 50%;
+    width: 70px;
+    padding: 5px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    border: 0.2rem solid #fff;
+}
+
+.testimonial-avatar-active {
+    border-radius: 50%;
+    width: 70px;
+    padding: 5px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    border: 0.2rem solid #007bff;
+}
+
+.accordion-toggle-btn {
+    font-family: 'Poppins-600';
+    font-size: 1.1rem;
+    margin: 0 1rem 0 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: blueviolet;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.testimonial-location, .testimonial-rating {
+    font-family: 'Poppins-600';
+    font-size: 1.3rem;
+}
+
+.testimonial-location-span, .testimonial-rating-span {
+    font-family: 'Poppins-400';
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.testimonial-lorem {
+    font-family: 'Poppins-400';
+    font-size: 1.2rem;
+}
+
+.carousel-buttons {
+    display: flex;
+}
+
+.previous-btn, .next-btn {
+    font-family: 'Poppins-600';
+    font-size: 1.5rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    border: none;
+    background-color: #bde0fe;
+    color: #05386b;
+}
+
+.previous-btn {
+    margin-right: 0.7rem;
+}
+
+.next-btn {
+    margin-right: 4.2rem;
+}
+
+.carousel-buttons {
+    align-items: center;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #bde0fe;
+}
+
+
+
+@media screen and (max-width: 1499px) {    
+    .testimonial-avatar-inactive {
+        border-radius: 50%;
+        width: 4vw;
+        padding: 0.3rem;
+        margin-right: 0.3rem;
+        cursor: pointer;
+        border: 0.2rem solid #fff;
+    }
+    
+    .testimonial-avatar-active {
+        border-radius: 50%;
+        width: 4vw;
+        padding: 0.3rem;
+        margin-right: 0.3rem;
+        cursor: pointer;
+        border: 0.2rem solid #007bff;
+    }
+    }
+
+
+    @media screen and (max-width: 1240px) {
+    .testimonial-avatar-inactive {
+        border-radius: 50%;
+        width: 3.5vw;
+        padding: 0.3rem;
+        margin-right: 0.3rem;
+        cursor: pointer;
+        border: 0.2rem solid #fff;
+    }
+    
+    .testimonial-avatar-active {
+        border-radius: 50%;
+        width: 3.5vw;
+        padding: 0.3rem;
+        margin-right: 0.3rem;
+        cursor: pointer;
+        border: 0.2rem solid #007bff;
+    }
+}
+
+
+
+@media screen and (max-width: 1140px) {
+    .testimonial-message {
+        font-family: 'Poppins-400';
+        font-size: 1rem;
+    }
+
+    .testimonial-lorem {
+        font-family: 'Poppins-400';
+        font-size: 0.9rem;
+    }
+
+    .testimonial-avatar-inactive {
+        border-radius: 50%;
+        width: 2.5vw;
+        padding: 0.3rem;
+        margin-right: 0.3rem;
+        cursor: pointer;
+        border: 0.2rem solid #fff;
+    }
+    
+    .testimonial-avatar-active {
+        border-radius: 50%;
+        width: 2.5vw;
+        padding: 0.3rem;
+        margin-right: 0.3rem;
+        cursor: pointer;
+        border: 0.2rem solid #007bff;
+    }
+}
+
+
+
+@media screen and (max-width: 980px) {
+    .testimonial-message {
+        font-family: 'Poppins-400';
+        font-size: 0.8rem;
+    }
+
+    .testimonial-lorem {
+        font-family: 'Poppins-400';
+        font-size: 0.7rem;
+    }
+
+    .previous-btn, .next-btn {
+        font-family: 'Poppins-600';
+        font-size: 1.2rem;
+        border-radius: 50%;
+        width: 3.5vw;
+        height: 3.5vw;
+        cursor: pointer;
+        border: none;
+        background-color: #bde0fe;
+        color: #05386b;
+    }
+    
+    .previous-btn {
+        margin-right: 0.5rem;
+    }
+
+    .testimonials-avatar-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel-buttons {
+        margin-top: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 860px) {
+    .testimonial-heading, .testimonial-loading {
+        font-family: 'Poppins-600';
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .testimonial-message {
+        font-family: 'Poppins-400';
+        font-size: 0.7rem;
+    }
+
+    .testimonial-location, .testimonial-rating {
+        font-family: 'Poppins-600';
+        font-size: 0.9rem;
+    }
+    
+    .testimonial-name, .testimonial-designation {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+    .testimonial-location-span, .testimonial-rating-span {
+        font-family: 'Poppins-400';
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+    .testimonial-lorem {
+        font-family: 'Poppins-400';
+        font-size: 0.6rem;
+    }
+
+    .accordion-toggle-btn {
+        font-family: 'Poppins-600';
+        font-size: 0.9rem;
+        margin: 0 1rem 0 0;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        color: blueviolet;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+
+
+
+@media screen and (max-width: 740px) {
+    .testimonial-text {
+        font-family: 'Poppins-600';
+        font-size: 0.5rem;
+        text-transform: uppercase;
+    }
+
+    .testimonial-heading, .testimonial-loading {
+        font-family: 'Poppins-600';
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .testimonial-section {
+        display: flex;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .testimonial-message {
+        font-family: 'Poppins-400';
+        font-size: 0.5rem;
+    }
+
+    .testimonial-location, .testimonial-rating {
+        font-family: 'Poppins-600';
+        font-size: 0.7rem;
+    }
+    
+    .testimonial-name, .testimonial-designation {
+        font-size: 0.7rem;
+        margin: 0;
+    }
+
+    .testimonial-location-span, .testimonial-rating-span {
+        font-family: 'Poppins-400';
+        font-size: 0.7rem;
+        margin: 0;
+    }
+
+    .testimonial-lorem {
+        font-family: 'Poppins-400';
+        font-size: 0.4rem;
+    }
+
+    .accordion-toggle-btn {
+        font-family: 'Poppins-600';
+        font-size: 0.7rem;
+        margin: 0 1rem 0 0;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        color: blueviolet;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .testimonial-avatar-inactive {
+        border-radius: 50%;
+        width: 1.5vw;
+        padding: 0.1rem;
+        margin-right: 0.2rem;
+        cursor: pointer;
+        border: 0.1rem solid #fff;
+    }
+    
+    .testimonial-avatar-active {
+        border-radius: 50%;
+        width: 1.5vw;
+        padding: 0.1rem;
+        margin-right: 0.2rem;
+        cursor: pointer;
+        border: 0.1rem solid #007bff;
+    }
+
+    .previous-btn, .next-btn {
+        font-family: 'Poppins-600';
+        font-size: 0.6rem;
+        border-radius: 50%;
+        width: 2.5vw;
+        height: 2.5vw;
+        cursor: pointer;
+        border: none;
+        background-color: #bde0fe;
+        color: #05386b;
+    }
+    
+    .previous-btn {
+        margin-right: 0.3rem;
+    }
+}
+
+
+
+@media screen and (max-width: 670px) {
+    .testimonials-container {
+        background-color: #fff;
+        padding: 2rem;
+        margin: 2rem 3rem 0 0;
+        border-radius: 0 200px 200px 0;
+    }
+
+    .testimonial-avatar-inactive {
+        border-radius: 50%;
+        width: 4vw;
+        padding: 0.1rem;
+        margin-right: 0.2rem;
+        cursor: pointer;
+        border: 0.1rem solid #fff;
+    }
+    
+    .testimonial-avatar-active {
+        border-radius: 50%;
+        width: 4vw;
+        padding: 0.1rem;
+        margin-right: 0.2rem;
+        cursor: pointer;
+        border: 0.1rem solid #007bff;
+    }
+
+    .previous-btn, .next-btn {
+        font-family: 'Poppins-600';
+        font-size: 0.6rem;
+        border-radius: 50%;
+        width: 3.5vw;
+        height: 3.5vw;
+        cursor: pointer;
+        border: none;
+        background-color: #bde0fe;
+        color: #05386b;
+    }
+    
+    .previous-btn {
+        margin-right: 0.3rem;
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .testimonial-heading, .testimonial-loading {
+        font-family: 'Poppins-600';
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+    .testimonial-location, .testimonial-rating {
+        font-family: 'Poppins-600';
+        font-size: 0.5rem;
+    }
+    
+    .testimonial-name, .testimonial-designation {
+        font-size: 0.5rem;
+        margin: 0;
+    }
+
+    .testimonial-location-span, .testimonial-rating-span {
+        font-family: 'Poppins-400';
+        font-size: 0.5rem;
+        margin: 0;
+    }
+
+    .accordion-toggle-btn {
+        font-family: 'Poppins-600';
+        font-size: 0.5rem;
+        margin: 0 1rem 0 0;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        color: blueviolet;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    audio {
+        display: none;
+    }
+
+    .previous-btn, .next-btn {
+        font-family: 'Poppins-600';
+        font-size: 0.7rem;
+        border-radius: 50%;
+        width: 5vw;
+        height: 5vw;
+        cursor: pointer;
+        border: none;
+        background-color: #bde0fe;
+        color: #05386b;
+    }
+    
+    .previous-btn {
+        margin-right: 0.3rem;
+    }
+}
